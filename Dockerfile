@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-MAINTAINER Matthias Heindl <m.heindl@fupa.net>
+MAINTAINER Matthias Heindl <heindlmatthias@gmail.com>
 
 # Install dependencies
 RUN apk update
