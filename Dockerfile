@@ -11,6 +11,9 @@ RUN apk add zip
 RUN apk add ca-certificates
 RUN apk add nodejs nodejs-npm
 
+# Install npm dependencies
+RUN npm install -g npx
+
 # Install AWS CLI
 RUN curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
 RUN python get-pip.py
